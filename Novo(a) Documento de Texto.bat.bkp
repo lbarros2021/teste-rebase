@@ -1,0 +1,7 @@
+echo "# teste-rebase" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/lbarros2021/teste-rebase.git
+git push -u origin main
